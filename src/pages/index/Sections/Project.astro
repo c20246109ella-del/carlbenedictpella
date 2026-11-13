@@ -1,0 +1,44 @@
+<section
+  id="projects"
+  class="border-t border-cyan-400/20 bg-slate-900/50 px-6 py-24 md:px-10"
+>
+  <div class="mx-auto max-w-5xl">
+    <p class="mb-3 tracking-[0.3em] text-cyan-400" data-reveal>01 / PROJECTS</p>
+    <div class="mb-12 flex flex-wrap items-end justify-between gap-6">
+      <h2 class="text-4xl font-black md:text-6xl" data-reveal>
+        MY <span class="text-yellow-400">PROJECTS</span>
+      </h2>
+      <button
+        type="button"
+        class="shrink-0 border border-cyan-400 px-5 py-3 text-sm font-bold text-cyan-400 transition hover:bg-cyan-400 hover:text-slate-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-cyan-400"
+        aria-pressed="false"
+        data-flip-projects
+      >
+        Flip projects
+      </button>
+    </div>
+
+    <div class="grid gap-6 md:grid-cols-2" data-project-grid>
+      <article
+        class="min-h-56 border border-cyan-400/30 bg-slate-950 p-7"
+        data-project-card
+        data-reveal
+      >
+        <p class="mb-4 text-sm tracking-widest text-cyan-400">01 / Services</p>
+        <h3 class="mb-3 text-2xl font-bold">For yours truly</h3>
+      
+      </article>
+      <article
+        class="min-h-56 border border-slate-700 bg-slate-950 p-7"
+        data-project-card
+        data-reveal
+      >
+        <p class="mb-4 text-sm tracking-widest text-yellow-400">02 / Contact</p>
+        <h3 class="mb-3 text-2xl font-bold">Me ASAP</h3>
+        <p class="leading-relaxed text-slate-400">
+          Projects are in progress.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
